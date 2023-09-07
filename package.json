@@ -1,5 +1,5 @@
 {
-  "name": "server-action-useoptimistic",
+  "name": "next-server-action",
   "version": "0.1.0",
   "private": true,
   "scripts": {
