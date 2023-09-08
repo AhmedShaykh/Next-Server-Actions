@@ -2,6 +2,7 @@ import GetProducts from "@/Components/GetProducts";
 import { addProduct } from "@/actions/serverActions";
 import { Product } from "../../Types";
 import AddProductButton from "@/Components/AddProductButton";
+import Link from "next/link";
 
 const Home = async () => {
 
@@ -48,6 +49,12 @@ const Home = async () => {
             <div className="flex justify-center mt-10">
                 <AddProductButton />
             </div>
+
+            <Link href="/optimistic">
+                <h3 className="text-xl text-center text-blue-600 hover:text-white mt-6">
+                    Go To Use Optimistic
+                </h3>
+            </Link>
 
             <h2 className="text-4xl font-bold text-center py-4 mt-12">
                 List Of Products:
