@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-let likes = 99;
+let likes: number = 1;
 
 export async function GET() {
 
